@@ -1,116 +1,79 @@
-# 🌐 ECODriX – SaaS Platform for Growth, Automation & AI
+<!-- Banner / Cover Image -->
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=ECODriX%20🚀&fontSize=40&fontAlignY=35)
 
-**ECODriX** helps businesses grow smarter with **AI agents, automation, and digital services.**
-We combine **modern technology stacks** with **business-focused solutions** to deliver websites, marketing, and AI automation that scale.
+# 💫 About ECODriX
+**ECODriX** is a SaaS platform for **AI agents, automation, and digital growth services**.  
+We help businesses capture leads, automate customer support, and scale faster with modern AI + automation tools.  
 
-🔗 **Live Site:** [ecodrix.com](https://ecodrix.com)
-
----
-
-## ✨ Core Features
-
-* 🤖 **AI Agents** – Website & WhatsApp chatbots, lead qualification, automated customer support
-* 📈 **Lead Generation** – Smart forms, integrations, and workflows
-* 🛠 **Customer Support Automation** – Reduce response time with AI-driven flows
-* 📊 **Analytics Dashboard** – Real-time insights into user interactions & conversions
-* 🔗 **Integrations** – CRMs, WhatsApp, Messenger, and custom APIs
+✨ Focused on blending **traditional web solutions** (SEO, ads, web dev) with **cutting-edge AI**.  
+🎯 Mission: Build **scalable, efficient, and innovative SaaS solutions** for startups & enterprises.  
 
 ---
 
-## 🛠 Services
-
-* 🌍 **Website Development** – Conversion-focused, responsive sites
-* 🔎 **SEO Optimization** – Rank higher & boost visibility
-* 📣 **Ads & Marketing** – Performance-driven paid ad campaigns
-* ⚙ **Automation Consulting** – AI + workflow automation (n8n, Zapier, pipelines)
-* 🤝 **Custom SaaS Solutions** – Tailored platforms for startups & enterprises
-
----
-
-## 🏗️ Tech Stack
-
-### 💻 Frontend
-
-<p align="left">  
-  <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="Next.js" width="50" height="50"/>  
-  <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="React" width="50" height="50"/>  
-  <img src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" alt="Tailwind CSS" width="50" height="50"/>  
-  <img src="https://cdn.worldvectorlogo.com/logos/framer-motion.svg" alt="Framer Motion" width="50" height="50"/>  
-</p>  
-
-### ⚙️ Backend & APIs
-
-<p align="left">  
-  <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" alt="Node.js" width="50" height="50"/>  
-  <img src="https://cdn.worldvectorlogo.com/logos/express-109.svg" alt="Express" width="50" height="50"/>  
-  <img src="https://cdn.worldvectorlogo.com/logos/graphql.svg" alt="GraphQL" width="50" height="50"/>  
-  <img src="https://cdn.worldvectorlogo.com/logos/socket-io.svg" alt="WebSockets" width="50" height="50"/>  
-</p>  
-
-### 🤖 AI & Automation
-
-<p align="left">  
-  <img src="https://cdn.worldvectorlogo.com/logos/openai-2.svg" alt="OpenAI" width="50" height="50"/>  
-  <img src="https://avatars.githubusercontent.com/u/126733545?s=200&v=4" alt="LangChain" width="50" height="50"/>  
-  <img src="https://n8n.io/n8n-logo.png" alt="n8n" width="50" height="50"/>  
-  <img src="https://cdn.worldvectorlogo.com/logos/rasa.svg" alt="Rasa" width="50" height="50"/>  
-</p>  
-
-### 📊 Databases & Storage
-
-<p align="left">  
-  <img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" alt="MongoDB" width="50" height="50"/>  
-  <img src="https://cdn.worldvectorlogo.com/logos/postgresql.svg" alt="PostgreSQL" width="50" height="50"/>  
-  <img src="https://cdn.worldvectorlogo.com/logos/redis.svg" alt="Redis" width="50" height="50"/>  
-  <img src="https://cdn.worldvectorlogo.com/logos/firebase-1.svg" alt="Firebase" width="50" height="50"/>  
-</p>  
-
-### 🚀 Hosting & Deployment
-
-<p align="left">  
-  <img src="https://cdn.worldvectorlogo.com/logos/vercel.svg" alt="Vercel" width="50" height="50"/>  
-  <img src="https://cdn.worldvectorlogo.com/logos/aws-2.svg" alt="AWS" width="50" height="50"/>  
-  <img src="https://cdn.worldvectorlogo.com/logos/docker.svg" alt="Docker" width="50" height="50"/>  
-</p>  
-
-### 🔐 Security & Auth
-
-<p align="left">  
-  <img src="https://cdn.worldvectorlogo.com/logos/jwt-3.svg" alt="JWT" width="50" height="50"/>  
-  <img src="https://cdn.worldvectorlogo.com/logos/oauth-2.svg" alt="OAuth2" width="50" height="50"/>  
-  <img src="https://cdn.worldvectorlogo.com/logos/ssl-2.svg" alt="SSL" width="50" height="50"/>  
-</p>  
-
-### 🛠 DevOps & Tooling
-
-<p align="left">  
-  <img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" alt="GitHub Actions" width="50" height="50"/>  
-  <img src="https://cdn.worldvectorlogo.com/logos/eslint.svg" alt="ESLint" width="50" height="50"/>  
-  <img src="https://cdn.worldvectorlogo.com/logos/prettier.svg" alt="Prettier" width="50" height="50"/>  
-  <img src="https://cdn.worldvectorlogo.com/logos/postman.svg" alt="Postman" width="50" height="50"/>  
-  <img src="https://cdn.worldvectorlogo.com/logos/sentry-3.svg" alt="Sentry" width="50" height="50"/>  
-</p>  
+## 🔥 Features & Services
+- 🤖 **AI Chat Agents** – Website widgets & WhatsApp bots for sales & support  
+- 📈 **Lead Generation** – Smart forms, automations & CRM integrations  
+- 🛠 **Customer Support Automation** – AI-powered workflows to reduce response time  
+- 🌍 **Website Development** – High-performance, conversion-ready websites  
+- 🔎 **SEO & Ads** – Optimize visibility + ROI-focused ad campaigns  
+- ⚙ **Automation Consulting** – Workflows with n8n, Zapier & custom pipelines  
 
 ---
 
-## 🚀 Roadmap
+# 💻 Tech Stack
 
-* [ ] AI agents on WhatsApp, Messenger & Telegram
-* [ ] Client self-serve automation dashboard
-* [ ] Template marketplace for SaaS widgets
-* [ ] Predictive analytics powered by AI
-* [ ] Multi-language AI agent support
+**Frontend:**  
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)  
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) 
+![Framer Motion](https://img.shields.io/badge/Framer--Motion-black?style=for-the-badge&logo=framer&logoColor=blue)
+
+**Backend & APIs:**  
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) 
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) 
+![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socketdotio&logoColor=white) 
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098.svg?style=for-the-badge&logo=graphql&logoColor=white)
+
+**AI & Automation:**  
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white) 
+![LangChain](https://img.shields.io/badge/LangChain-%23000000.svg?style=for-the-badge&logoColor=white) 
+![n8n](https://img.shields.io/badge/n8n-EA4C89?style=for-the-badge&logo=n8n&logoColor=white) 
+![Rasa](https://img.shields.io/badge/Rasa-5A17EE?style=for-the-badge&logo=rasa&logoColor=white)
+
+**Databases & Storage:**  
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) 
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23336791.svg?style=for-the-badge&logo=postgresql&logoColor=white) 
+![Redis](https://img.shields.io/badge/Redis-%23DC382D.svg?style=for-the-badge&logo=redis&logoColor=white) 
+![Firebase](https://img.shields.io/badge/Firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
+
+**Cloud, Hosting & Deployment:**  
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) 
+![AWS](https://img.shields.io/badge/Amazon_AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) 
+![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) 
+
+**DevOps & Tools:**  
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) 
+![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white) 
+![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black) 
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) 
+![Sentry](https://img.shields.io/badge/Sentry-%23FB4226.svg?style=for-the-badge&logo=sentry&logoColor=white)
 
 ---
 
-## 📬 Contact
-
-* 📧 Email: [support@ecodrix.com](mailto:support@ecodrix.com)
-* 🌐 Website: [ecodrix.com](https://ecodrix.com)
+# 🚀 Roadmap
+- [ ] AI agents on WhatsApp, Messenger & Telegram  
+- [ ] Client self-serve automation dashboard  
+- [ ] Template marketplace for SaaS widgets  
+- [ ] Predictive analytics powered by AI  
+- [ ] Multi-language AI agent support  
 
 ---
 
-## 📜 License
+# 🌐 Connect With Us
+[![Website](https://img.shields.io/badge/🌐%20Website-ECODriX-blue?style=for-the-badge)](https://ecodrix.com)  
+[![Email](https://img.shields.io/badge/Email-Support%40ecodrix.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:support@ecodrix.com)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)  
 
-MIT License – free to use, adapt, and modify.
+---
 
+![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer)
