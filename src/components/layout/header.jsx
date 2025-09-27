@@ -1,8 +1,9 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
+import { motion } from "framer-motion";
 import { useGlobal } from "@/context/handleContent";
+import Logo from "../logo";
 // import "@fillout/react/style.css";
 
 const Header = () => {
@@ -34,14 +35,7 @@ const Header = () => {
           <div className="flex items-center">
             <Link href="/" className="flex items-center group">
               <div className="relative">
-                <Image
-                  src="/logo.png"
-                  alt="Logo"
-                  className="h-10 w-auto lg:h-12 transition-transform duration-200 group-hover:scale-105"
-                  width={100}
-                  height={100}
-                  priority
-                />
+                <Logo />
               </div>
             </Link>
           </div>
@@ -54,14 +48,14 @@ const Header = () => {
             >
               Blogs
               <span className="absolute bottom-0 left-3 right-3 h-0.5 bg-blue-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-200"></span>
-            </Link>
+            </Link> */}
             <Link
-              href="/about-us"
+              href="/about"
               className="text-slate-300 hover:text-white px-3 py-2 rounded-lg transition-all duration-200 hover:bg-slate-800/50 relative group"
             >
               About
               <span className="absolute bottom-0 left-3 right-3 h-0.5 bg-blue-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-200"></span>
-            </Link> */}
+            </Link>
 
             {/* Fillout trigger inside nav */}
             <button
@@ -78,21 +72,30 @@ const Header = () => {
             className="md:hidden relative w-8 h-8 flex flex-col justify-center items-center space-y-1 group"
             aria-label="Toggle menu"
           >
-            <span
-              className={`block h-0.5 w-6 bg-slate-300 transition-all duration-300 ${
-                isMenuOpen ? "rotate-45 translate-y-1.5" : ""
-              }`}
-            ></span>
-            <span
-              className={`block h-0.5 w-6 bg-slate-300 transition-all duration-300 ${
-                isMenuOpen ? "opacity-0" : ""
-              }`}
-            ></span>
-            <span
-              className={`block h-0.5 w-6 bg-slate-300 transition-all duration-300 ${
-                isMenuOpen ? "-rotate-45 -translate-y-1.5" : ""
-              }`}
-            ></span>
+            <motion.span
+              animate={{
+                rotateZ: isMenuOpen ? 45 : 0,
+                y: isMenuOpen ? 6 : 0,
+              }}
+              transition={{ type: "spring", stiffness: 300, damping: 20 }}
+              className="block h-0.5 w-6 rounded-full bg-slate-300 origin-center"
+            />
+            <motion.span
+              animate={{
+                scaleX: isMenuOpen ? 0 : 1,
+                opacity: isMenuOpen ? 0 : 1,
+              }}
+              transition={{ duration: 0.2 }}
+              className="block h-0.5 w-6 rounded-full bg-slate-300"
+            />
+            <motion.span
+              animate={{
+                rotateZ: isMenuOpen ? -45 : 0,
+                y: isMenuOpen ? -6 : 0,
+              }}
+              transition={{ type: "spring", stiffness: 300, damping: 20 }}
+              className="block h-0.5 w-6 rounded-full bg-slate-300 origin-center"
+            />
           </button>
         </div>
 
@@ -109,15 +112,15 @@ const Header = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               Blogs
-            </Link>
+            </Link> */}
             <Link
-              href="/about-us"
+              href="/about"
               className="block text-slate-300 hover:text-white hover:bg-slate-800/50 px-4 py-3 rounded-lg transition-all duration-200"
               onClick={() => setIsMenuOpen(false)}
             >
               About
             </Link>
-            <Link
+            {/* <Link
               href="https://app.ecodrix.com"
               className="block text-slate-300 hover:text-white hover:bg-slate-800/50 px-4 py-3 rounded-lg transition-all duration-200"
               onClick={() => setIsMenuOpen(false)}

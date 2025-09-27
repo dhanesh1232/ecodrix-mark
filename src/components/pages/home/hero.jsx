@@ -27,8 +27,8 @@ export function HeroSection() {
         <div className="flex-1 text-center lg:text-left">
           <div className="group inline-flex items-center gap-3 rounded-full bg-gradient-to-r from-blue-900/40 to-blue-800/30 px-5 py-2.5 text-sm font-medium text-blue-300 ring-1 ring-inset ring-blue-700/40 mb-6 hover:bg-blue-800/40 hover:text-blue-200 transition-all duration-300 transform">
             <span className="relative h-3 w-3 flex items-center justify-center">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-blue-400 opacity-75"></span>
-              <span className="relative inline-flex h-3 w-3 rounded-full bg-blue-500"></span>
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-blue-400 opacity-75" />
+              <span className="relative inline-flex h-3 w-3 rounded-full bg-blue-500" />
             </span>
             <span className="relative">Now with GPT integration</span>
           </div>
@@ -42,14 +42,13 @@ export function HeroSection() {
 
           <p className="text-lg md:text-xl mb-8 text-slate-300 max-w-lg mx-auto lg:mx-0 leading-relaxed">
             Engage customers, automate workflows, and grow your business with
-            ECOD SaaS. The all-in-one solution for modern customer
-            communication.
+            ECOD. The all-in-one solution for modern customer communication.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-10 justify-center lg:justify-start">
             <button
               onClick={() => setIsFilloutOpen(true)}
-              className="px-8 py-2 border bg-white border-slate-600 rounded-full text-slate-900 hover:text-white hover:bg-slate-800/50 transition-all duration-300 text-center transform"
+              className="px-8 py-2 border cursor-pointer bg-white border-slate-600 rounded-full text-slate-900 hover:text-white hover:bg-slate-800/50 transition-all ease-in-out duration-300 text-center transform"
             >
               Talk to sales
             </button>

@@ -232,9 +232,9 @@ export function UseCases() {
       <div className="container mx-auto px-4">
         {/* Enhanced Header Section */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 5 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.3 }}
           viewport={{ once: true, margin: "-100px" }}
           className="text-center mb-16"
         >
@@ -266,11 +266,11 @@ export function UseCases() {
             return (
               <motion.div
                 key={useCase.id}
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 0, y: 5 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 viewport={{ once: true, margin: "-50px" }}
-                className="bg-white dark:bg-slate-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group border border-slate-200 dark:border-slate-700 flex flex-col h-full transform hover:-translate-y-1"
+                className="bg-white dark:bg-slate-800 rounded-xl group shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group border border-slate-200 dark:border-slate-700 flex flex-col h-full transform"
               >
                 {/* Image Container */}
                 <div className="relative h-48 overflow-hidden">
